@@ -1,5 +1,5 @@
 import javax.swing.*;
-class App {
+public class App {
     public static void main(String[] args) {
         int boardWidth = 600;
         int boardHeight = boardWidth;
@@ -15,7 +15,7 @@ class App {
        Snakegame snakeGame = new Snakegame(boardWidth, boardHeight); 
        frame.add(snakeGame);
        frame.pack();
-
+       
 
     }
 }
